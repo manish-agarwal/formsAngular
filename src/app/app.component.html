@@ -1,0 +1,29 @@
+<app-component-two [q1]="ques1" [q2]="ques2" [q3]="ques3" [q4]="ques4" ></app-component-two>
+
+<div class="container" align="center">
+<br><hr><br><br>
+<h3>User Data</h3>
+<br>
+<button class="btn btn-primary" (click)="getdata(0)" >User 1</button>
+<button class="btn btn-primary" (click)="getdata(1)" >User 2</button>
+<button class="btn btn-primary" (click)="getdata(2)" >User 3</button>
+<button class="btn btn-primary" (click)="getdata(3)" >User 4</button>
+<button class="btn btn-primary" (click)="getdata(4)" >User 5</button>
+<button class="btn btn-primary" (click)="getdata(5)" >User 6</button>
+<button class="btn btn-primary" (click)="getdata(6)" >User 7</button>
+<button class="btn btn-primary" (click)="getdata(7)" >User 8</button>
+<button class="btn btn-primary" (click)="getdata(8)" >User 9</button>
+<button class="btn btn-primary" (click)="getdata(9)" >User 10</button>
+<br><br>
+<div class="row">
+    <div class="col-xs-12">
+      <table class="table table-striped">
+      <tr><th>Username:</th><td> {{ username }}</td></tr>
+      <tr><th>Mail:</th><td> {{ email }}</td></tr>
+      <tr><th>Secret Question:</th><td> {{ secretQuestion }}</td></tr>
+      <tr><th>Answer:</th><td> {{ answer }}</td></tr>
+      <tr><th>Gender:</th><td> {{ gender }}</td></tr>
+      </table>
+    </div>
+</div>
+</div>
